@@ -26,7 +26,7 @@ int simul()
 	int nexty = 0;
 	int safety_zone = 0;
 
-	for (int t = min_t; t < max_t; t++)
+	for (int t = min_t - 1; t < max_t; t++)
 	{
 		for (int k = 0; k < n; k++)
 			for (int z = 0; z < n; z++)
